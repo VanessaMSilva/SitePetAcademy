@@ -44,7 +44,7 @@ body{
 }
 nav ul{
     list-style: none; /*Tira as bolinhas*/
-    background-color: #C1AC9C;
+    background-color: #7572cd;
     height:  100vh;/*vh define a altura do menu para o tamanho tot da tela*/
     position: fixed;/*Desloca uma camada acima dos elemetos não interagindo com ele*/
     top: 60px;/*Corrigir o ul*/
@@ -58,7 +58,7 @@ nav ul{
 }
 
 nav ul li{
-    border-bottom: 1px solid rgb(128, 98, 98);
+    border-bottom: 1px solid #0600c0 ;
     padding: 20px;
 }
 
@@ -156,10 +156,9 @@ main h1{
 .Botao{/*link sobre*/
     text-decoration: none;
     color: #fff;
-    font-size: 1.3em;
-    font-weight: 700;
+    font-size: 1em;
     background-color: #0600c0;
-    padding: 10px 40px;/*10px paracima e para baixo e 40px para a esquerda e dir*/
+    padding: 10px 10px;/*10px paracima e para baixo e 40px para a esquerda e dir*/
     border: 2px solid #fff;
     border-radius: 25px;
 }
@@ -222,20 +221,24 @@ td{
 
 /*One page Sobre*/
 #onepage{
-    padding: 50px 10px;
+    padding: 50px 50px;
 }
 
 #onepage h2{
     margin-bottom: 10px;
+    font-size: 2em;
 }
 
 #onepage p{
-    margin-bottom: 25px;
+    font-size: 1em;
 }
 
+
+
 #imagem img{
-    width: 340px;
-    height: 191px;
+    margin-left: 20px;
+    width: 100%;
+    height: 100%;
     border-radius: 25px;
 }
 
@@ -247,7 +250,7 @@ td{
 #conteudo{
     padding: 50px 0px;
     background-image: 
-    linear-gradient(to bottom right, white, rgb(157, 143, 232));
+    linear-gradient(to bottom right, rgb(165, 175, 240), rgb(32, 13, 136));
 }
 
 #conteudo h2{
@@ -262,7 +265,7 @@ td{
     width: 300px;
     height: 400px;
     background-color: #fff;
-    border: 3px solid #c7c5c5;
+    border: 3px solid #071853;
     border-radius: 25px;
     text-align: center;
     box-shadow: 1px 3px 10px #e8e8e8;
@@ -275,6 +278,8 @@ td{
 
 .Card h3{
     margin-top: 15px;
+    color: #071853;
+    font-size: 1.3em;
 }
 
 .Card p{
@@ -284,7 +289,7 @@ td{
 }
 
 .Card a {
-    padding: 10px 100px;
+    padding: 10px 40px;
     border: 0;
 }
 
